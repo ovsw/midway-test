@@ -25,7 +25,7 @@ export const shouldUpdateScroll = ({
 };
 
 // Optional Config Sentry
-Sentry.init({dsn: process.env.GATSBY_SENTRY_DSN});
+// Sentry.init({dsn: process.env.GATSBY_SENTRY_DSN});
 
 export const wrapRootElement = ({ element }) => (
   <StoreContextProvider>{element}</StoreContextProvider>
